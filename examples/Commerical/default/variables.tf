@@ -1,7 +1,7 @@
 variable "location" {
   description = "Azure region in which instance will be hosted"
   type        = string
-  default     = "usgovvirginia"
+  default     = "eastus"
 }
 
 variable "deploy_environment" {
@@ -13,7 +13,7 @@ variable "deploy_environment" {
 variable "environment" {
   description = "Name of the environnement"
   type        = string
-  default     = "usgovernment"
+  default     = "public"
 }
 
 variable "workload_name" {
